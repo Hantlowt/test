@@ -1,0 +1,737 @@
+
+
+            
+    <div class="container-light" id="header2">
+        <div  class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-slider  "
+            style="height: 450px;">
+            <div class="element element-slider" data-period="4" data-view-type="view_type_2"
+                data-transition="fade" data-admin-context="false" data-navigation="true">
+                {{$params := .Params }}
+                {{ range $index, $element := .Params.galerie.elements }}
+                <div class="element element-slide">
+                    <div 
+                        class=" sb-bloc sb-bloc-level-3 bloc-element-absolute-container  " >
+                        <div  
+                            class="sb-bloc-inner c1 bg-imaged">
+                            <style>
+                                .c1 {
+                                    position: relative;
+                                }
+
+                                .c1 {
+                                    background-repeat: no-repeat;
+                                    -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-image: url({{$element.img}});
+                                }
+
+                            </style>
+                            <div class="element element-absolute-container">
+                                <div class="tree-container">
+                                    <div 
+                                        class="sb-bloc-alignment-wrapper  sb-bloc-alignment-h-v sb-bloc-alignment-h-left sb-bloc-alignment-v-middle  ">
+                                        <div class="sb-bloc-alignment-sibling"></div>
+                                        <div class=" sb-bloc sb-bloc-level-3 sb-bloc-position-absolute bloc-element-static-container"
+                                            style="width: 35.0%;top: 0.404974%;left: 14.3551%;">
+                                            <div 
+                                                style="margin: 10px 10px 10px 10px;padding: 20px 20px 20px 20px;border-width: 1px;border-style: solid;"
+                                                class="sb-bloc-inner c2 background-color-before-c-6 border-color-c-3 container-dark">
+                                                <style>
+                                                    .c2:before {
+                                                        content: "";
+                                                        position: absolute;
+                                                        top: 0;
+                                                        bottom: 0;
+                                                        left: 0;
+                                                        right: 0;
+                                                        opacity: 0.5;
+                                                    }
+                                                </style>
+                                                <div class="element element-static-container">
+                                                    <div class="tree-container clearfix">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                <h2><span class="element-title-inner"
+                                                                        style="font-size: 24px;">
+                                                                        {{$element.title}}
+                                                                    </span></h2>
+                                                            </div>
+                                                        </div>
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-spacer  hide-on-mobile "
+                                                            style="height: 40px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-spacer"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-text  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div class="element element-text displayed_in_1_column"
+                                                                spellcheck="true">
+                                                                <p style="text-align: center;">{{ $element.desc }}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-spacer  hide-on-mobile "
+                                                            style="height: 40px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-spacer"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-link  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-link link-lg sb-vi-text-center">
+                                                                <a title=""
+                                                                    class=" sb-vi-btn forced-color skin_1 content-link"
+                                                                    target="_blank" rel="noopener"
+                                                                    href="#">
+                                                                    <span>
+                                                                        <span class="inner-text">{{ $params.galerie.bouton_text }}</span>
+                                                                    </span>
+                                                                </a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-light sb-row media-query sb-row-table" id="center">
+        <div class="sb-col sb-col-sm" id="center_inner_wrapper">
+            <div class="">
+                <div class="sections-container">
+                    <section class=" section tree-container " >
+                        <div class="sb-bloc-inner c3" 
+                            style="padding: 60px 10px 60px 10px;">
+                            <style>
+                                .c3 {
+                                    position: relative;
+                                }
+
+                                .c3>.subcontainers {
+                                    width: 100% !important;
+                                    max-width: 950px !important;
+                                    margin-right: auto !important;
+                                    margin-left: auto !important;
+                                }
+                            </style>
+                            <div class="subcontainers">
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-html  "
+                                    style="padding: 10px 10px 10px 10px;">
+                                    <div class="element element-html">
+                                    </div>
+                                </div>
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-static-container  "
+                                    style="padding: 10px 10px 10px 10px;">
+                                    <div 
+                                        style="padding: 20px 20px 20px 20px;border-width: 1px;border-style: solid;box-shadow: 5px 15px 40px rgba(47,47,47,0.3);"
+                                        class="sb-bloc-inner c4 background-color-before-c-3 border-color-c-1 sb-display-animated container-light"
+                                        data-animation-options="{&quot;type&quot;:&quot;zoomIn&quot;,&quot;duration&quot;:500,&quot;delay&quot;:0}">
+                                        <style>
+                                            .c4 {
+                                                position: relative;
+                                            }
+
+                                            .c4:before {
+                                                content: "";
+                                                position: absolute;
+                                                top: 0;
+                                                bottom: 0;
+                                                left: 0;
+                                                right: 0;
+                                                opacity: 1.0;
+                                            }
+                                        </style>
+                                        <div class="element element-static-container">
+                                            <div class="tree-container clearfix">
+                                                <div class="sb-row sb-row-custom subcontainers media-query">
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 20.6306%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-image  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div 
+                                                                style="border-radius: 1000px;"
+                                                                class="sb-bloc-inner c5 border-radius-max border-radius">
+                                                                <style>
+                                                                    .c5 {
+                                                                        position: relative;
+                                                                    }
+                                                                </style>
+                                                                <div 
+                                                                    class="element element-image"
+                                                                    >
+                                                                    <div
+                                                                        class="element-image-container redirect_with_no_text">
+                                                                        <img class="sb-vi-img-responsive img-query"
+                                                                            alt=""
+                                                                            src="img/logo.png"
+                                                                            sizes="100px" />
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 59.8198%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                <h2><span class="element-title-inner"
+                                                                        style="font-size: 20px;">Olivier Lhote
+                                                                        <br />Coach Canin
+                                                                        </span></h2>
+                                                            </div>
+                                                        </div>
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-contact  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-contact contact-lg sb-vi-text-center element-contact-vertical">
+                                                                <div class="sb-row media-query">
+                                                                    <div
+                                                                        class="sb-col element-contact-item sb-col-sm-12">
+                                                                        <div class="element-contact-telmob">
+                                                                            <i class="fa fa-phone fa-fw"></i>
+                                                                            <p class="element-contact-text">
+                                                                                <a href="tel:">06 42
+                                                                                    XX XX XX</a>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 19.5495%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-spacer  hide-on-mobile "
+                                                            style="height: 60px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-spacer"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sb-row sb-row-custom subcontainers media-query">
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 33.3333%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-spacer  hide-on-mobile "
+                                                            style="height: 40px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-spacer"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 33.3333%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-separator  "
+                                                            style="height: 40px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-separator">
+                                                                    <div
+                                                                        class="element-separator-inner direction-x separator-skin-1 ">
+                                                                        <div
+                                                                            class="element-separator-container">
+                                                                            <div class="element-separator-el">
+                                                                                <hr
+                                                                                    class="element-separator-line" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                                        style="width: 33.3333%;">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-spacer  hide-on-mobile "
+                                                            style="height: 40px;">
+                                                            <div 
+                                                                style="margin: 10px 10px 10px 10px;"
+                                                                class="sb-bloc-inner">
+                                                                <div class="element element-spacer"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div 
+                                                    class=" sb-bloc sb-bloc-level-3 bloc-element-text  "
+                                                    style="padding: 10px 10px 10px 10px;">
+                                                    <div class="element element-text displayed_in_1_column"
+                                                        spellcheck="true">
+                                                        <p> </p>
+
+                                                        <p style="text-align: center;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis, nulla in suscipit consequat, risus diam aliquet diam, sit amet ullamcorper felis diam eget urna. Duis id lectus dignissim, consequat est vitae, pharetra urna. Nulla eu quam eu nisi malesuada tincidunt sit amet id velit.
+                                                        </p>
+
+                                                        <p style="text-align: center;"> </p>
+                                                    </div>
+                                                </div>
+                                                <div 
+                                                    class=" sb-bloc sb-bloc-level-3 bloc-element-link  "
+                                                    style="padding: 10px 10px 10px 10px;">
+                                                    <div  
+                                                        class="sb-bloc-inner c6 sb-display-animated"
+                                                        data-animation-options="{&quot;type&quot;:&quot;fadeInDown&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:0}">
+                                                        <div
+                                                            class="element element-link link-lg sb-vi-text-center">
+                                                            <a title=""
+                                                                class=" sb-vi-btn forced-color skin_1 content-link"
+                                                                href="#">
+                                                                <span>
+                                                                    <span class="inner-text">Bla bla bla </span>
+                                                                </span>
+                                                            </a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section> 
+                    <section class=" section tree-container " id="section-n-6_809884">
+                        <div class="sb-bloc-inner c7 background-color-before-c-1 container-dark bg-imaged"
+                             style="padding: 45px 45px 45px 45px;">
+                            <style>
+                                .c7 {
+                                    position: relative;
+                                }
+
+                                .c7 {
+                                    background-repeat: no-repeat;
+                                    -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-attachment: fixed;
+                                    background-image: url(https://dogconsulting.fr/wp-content/uploads/2020/02/IMG_03.jpg);
+                                }
+
+
+                                @media (max-width: 992px) {
+                                    .c7 {
+                                        background-attachment: scroll;
+                                    }
+                                }
+
+                                @media (max-width: 992px) {
+                                    .c7 {
+                                        background-attachment: scroll;
+                                    }
+                                }
+
+                                .c7:before {
+                                    content: "";
+                                    position: absolute;
+                                    top: 0;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    opacity: 0.6;
+                                }
+                            </style>
+                            <div class="subcontainers">
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                    style="padding: 10px 10px 10px 10px;">
+                                    <div class="element element-title sb-vi-text-center theme-skin">
+                                        <h2><span class="element-title-inner">Pouet pouet</span></h2>
+                                    </div>
+                                </div>
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                    style="padding: 10px 10px 10px 10px;">
+                                    <div class="element element-title sb-vi-text-center theme-skin">
+                                        <h2><span class="element-title-inner">sous titre du pouet pouet </span></h2>
+                                    </div>
+                                </div>
+                                <div class="sb-row sb-row-custom subcontainers media-query">
+                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                        style="width: 33.3333%;">
+                                        <div 
+                                            class=" sb-bloc sb-bloc-level-3 bloc-element-static-container  "
+                                            style="padding: 10px 10px 10px 10px;">
+                                            <div 
+                                                style="padding: 20px 20px 20px 20px;border-width: 2px;border-style: solid;transition-duration: 600ms; -webkit-transition-duration: 600ms;"
+                                                class="sb-bloc-inner  border-color-c-3 sb-hover-animated slide_up">
+                                                <div class="element element-static-container">
+                                                    <div class="tree-container clearfix">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                <h3><span class="element-title-inner">Et une case</span></h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                        style="width: 33.3333%;">
+                                        <div 
+                                            class=" sb-bloc sb-bloc-level-3 bloc-element-static-container  "
+                                            style="padding: 10px 10px 10px 10px;">
+                                            <div 
+                                                style="padding: 20px 20px 20px 20px;border-width: 2px;border-style: solid;transition-duration: 600ms; -webkit-transition-duration: 600ms;"
+                                                class="sb-bloc-inner border-color-c-3 sb-hover-animated slide_up">
+                                                <div class="element element-static-container">
+                                                    <div class="tree-container clearfix">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                <h3><span class="element-title-inner">Et deux cases </span></h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                        style="width: 33.3333%;">
+                                        <div 
+                                            class=" sb-bloc sb-bloc-level-3 bloc-element-static-container  "
+                                            style="padding: 10px 10px 10px 10px;">
+                                            <div 
+                                                style="padding: 20px 20px 20px 20px;border-width: 2px;border-style: solid;transition-duration: 600ms; -webkit-transition-duration: 600ms;"
+                                                class="sb-bloc-inner border-color-c-3 sb-hover-animated slide_up">
+                                                <div class="element element-static-container">
+                                                    <div class="tree-container clearfix">
+                                                        <div 
+                                                            class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                            style="padding: 10px 10px 10px 10px;">
+                                                            <div
+                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                <h3><span class="element-title-inner">Et trois cases ! </span></h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class=" section tree-container " >
+                        <div class="sb-bloc-inner c8 container-light"
+                             style="padding: 10px 10px 10px 10px;">
+                            <style>
+                                .c8 {
+                                    position: relative;
+                                }
+
+                                .c8>.subcontainers {
+                                    width: 100% !important;
+                                    max-width: 3000px !important;
+                                    margin-right: auto !important;
+                                    margin-left: auto !important;
+                                }
+                            </style>
+                            <div class="subcontainers">
+                                <div class="sb-row sb-row-custom subcontainers media-query">
+                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                        style="width: 34.5349%;">
+                                        <div 
+                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-absolute-container  "
+                                            style="height: 810px;">
+                                            <div 
+                                                style="margin: 10px 10px 10px 10px;"
+                                                class="sb-bloc-inner c9 sb-display-animated bg-imaged"
+                                                data-animation-options="{&quot;type&quot;:&quot;zoomIn&quot;,&quot;duration&quot;:1000,&quot;delay&quot;:0}">
+                                                <style>
+                                                    .c9 {
+                                                        background-repeat: no-repeat;
+                                                        -webkit-background-size: cover;
+                                                        -moz-background-size: cover;
+                                                        -o-background-size: cover;
+                                                        background-size: cover;
+                                                        background-position: center;
+                                                        background-image: url(https://dogconsulting.fr/wp-content/uploads/2020/02/IMG_03.jpg);
+                                                    }
+                                                </style>
+                                                <div class="element element-absolute-container">
+                                                    <div class="tree-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm"
+                                        style="width: 65.4651%;">
+                                        <div 
+                                            class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-absolute-container  "
+                                            style="height: 810px;">
+                                            <div 
+                                                style="margin: 10px 10px 10px 10px;"
+                                                class="sb-bloc-inner c10  container-light">
+                                                <style>
+                                                    .c10:before {
+                                                        content: "";
+                                                        position: absolute;
+                                                        top: 0;
+                                                        bottom: 0;
+                                                        left: 0;
+                                                        right: 0;
+                                                        opacity: 1.0;
+                                                        background-color: #e7e8e8;
+                                                    }
+                                                </style>
+                                                <div class="element element-absolute-container">
+                                                    <div class="tree-container">
+                                                        <div 
+                                                            class="sb-bloc-alignment-wrapper  sb-bloc-alignment-h-v sb-bloc-alignment-h-center sb-bloc-alignment-v-middle  ">
+                                                            <div class="sb-bloc-alignment-sibling"></div>
+                                                            <div class=" sb-bloc sb-bloc-level-3 sb-bloc-position-absolute bloc-element-static-container"
+                                                                style="width: 86.8333%;top: 33.8889%;left: 13.1667%;">
+                                                                <div 
+                                                                    style="margin: 10px 10px 10px 10px;padding: 20px 20px 20px 20px;"
+                                                                    class="sb-bloc-inner">
+                                                                    <div
+                                                                        class="element element-static-container">
+                                                                        <div class="tree-container clearfix">
+                                                                            <div 
+                                                                                class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                                                style="padding: 10px 10px 20px 10px;">
+                                                                                <div
+                                                                                    class="element element-title sb-vi-text-center theme-skin">
+                                                                                    <h2><span
+                                                                                            class="element-title-inner"
+                                                                                            >Educateur canin, qu'est-ce ? </span>
+                                                                                    </h2>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div 
+                                                                                class=" sb-bloc sb-bloc-level-3 bloc-element-text  "
+                                                                                style="padding: 10px 10px 10px 10px;">
+                                                                                <div class="element element-text displayed_in_1_column"
+                                                                                    spellcheck="true">
+                                                                                    <p><span>Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.
+                                                                                        </span></p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div 
+                                                                                class=" sb-bloc sb-bloc-level-3 bloc-element-link  "
+                                                                                style="padding: 10px 10px 10px 10px;">
+                                                                                <div
+                                                                                    class="element element-link link-lg sb-vi-text-center">
+                                                                                    <a class=" sb-vi-btn forced-color skin_1 content-link"
+                                                                                        href="/contact">
+                                                                                        <span>
+                                                                                            <span
+                                                                                                class="inner-text">Contact</span>
+                                                                                        </span>
+                                                                                    </a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class=" section tree-container" >
+                        <div class="sb-bloc-inner c11" 
+                            style="padding: 10px 10px 10px 10px;">
+                            <div class="subcontainers">
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                    style="padding: 10px 10px 20px 10px;">
+                                    <div class="element element-title sb-vi-text-center theme-skin">
+                                        <h2><span class="element-title-inner">Titre de la section</span></h2>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo varius diam eget tincidunt. Pellentesque id pellentesque dui. Nullam condimentum lobortis rhoncus. Donec ac lobortis urna, suscipit suscipit ante. Duis laoreet lectus sit amet nisi ornare, quis tristique nulla fermentum. Cras elementum felis sapien, vitae porta purus tincidunt ut. Phasellus suscipit laoreet efficitur. Maecenas a leo dolor. Fusce nisi leo, placerat id magna eu, lobortis accumsan purus. Phasellus in euismod lectus.
+<br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo varius diam eget tincidunt. Pellentesque id pellentesque dui. Nullam condimentum lobortis rhoncus. Donec ac lobortis urna, suscipit suscipit ante. Duis laoreet lectus sit amet nisi ornare, quis tristique nulla fermentum. Cras elementum felis sapien, vitae porta purus tincidunt ut. Phasellus suscipit laoreet efficitur. Maecenas a leo dolor. Fusce nisi leo, placerat id magna eu, lobortis accumsan purus. Phasellus in euismod lectus.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class=" section tree-container " >
+                        <div class="sb-bloc-inner c12 bg-imaged"
+                             >
+                            <style>
+                                .c12 {
+                                    position: relative;
+                                }
+
+                                .c12 {
+                                    background-repeat: no-repeat;
+                                    -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-attachment: fixed;
+                                    background-image: url(https://dogconsulting.fr/wp-content/uploads/2020/02/IMG_03.jpg);
+                                }
+
+                                @media (max-width: 992px) {
+                                    .c12 {
+                                        background-attachment: scroll;
+                                    }
+                                }
+
+                                @media (max-width: 992px) {
+                                    .c12 {
+                                        background-attachment: scroll;
+                                    }
+                                }
+
+                                .c12>.subcontainers {
+                                    width: 100% !important;
+                                    max-width: 3000px !important;
+                                    margin-right: auto !important;
+                                    margin-left: auto !important;
+                                }
+                            </style>
+                            <div class="subcontainers">
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-absolute-container  "
+                                    style="height: 780px;">
+                                    <div  
+                                        class="sb-bloc-inner c13">
+                                        <div class="element element-absolute-container">
+                                            <div class="tree-container">
+                                                <div 
+                                                    class="sb-bloc-alignment-wrapper  sb-bloc-alignment-h-v sb-bloc-alignment-h-center sb-bloc-alignment-v-middle  ">
+                                                    <div class="sb-bloc-alignment-sibling"></div>
+                                                    <div class=" sb-bloc sb-bloc-level-3 sb-bloc-position-absolute bloc-element-static-container"
+                                                        style="width: 95.0%;top: 5.0%;left: 5.0%;">
+                                                        <div 
+                                                            style="margin: 10px 10px 10px 10px;padding: 50px 20px 50px 20px;"
+                                                            class="sb-bloc-inner c14  sb-display-animated container-light"
+                                                            data-animation-options="{&quot;type&quot;:&quot;fadeIn&quot;,&quot;duration&quot;:500,&quot;delay&quot;:500}">
+                                                            <style>
+                                                                .c14:before {
+                                                                    content: "";
+                                                                    position: absolute;
+                                                                    top: 0;
+                                                                    bottom: 0;
+                                                                    left: 0;
+                                                                    right: 0;
+                                                                    opacity: 0.9;
+                                                                    background-color: #FFFFFF;
+                                                                }
+                                                            </style>
+                                                            <div class="element element-static-container">
+                                                                <div class="tree-container clearfix">
+                                                                    <div 
+                                                                        class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                                                        style="padding: 10px 10px 20px 10px;">
+                                                                        <div 
+                                                                            
+                                                                            class="sb-bloc-inner cc15">
+                                                                            <style>
+                                                                                .cc15 {
+                                                                                    position: relative;
+                                                                                }
+
+                                                                                .cc15 {
+                                                                                    width: 100% !important;
+                                                                                    max-width: 600px !important;
+                                                                                    margin-right: auto !important;
+                                                                                    margin-left: auto !important;
+                                                                                }
+                                                                            </style>
+                                                                            <div
+                                                                                class="element element-title sb-vi-text-center theme-skin">
+                                                                                <h2><span
+                                                                                        class="element-title-inner">Titre de cette section</span></h2>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo varius diam eget tincidunt. Pellentesque id pellentesque dui. Nullam condimentum lobortis rhoncus. Donec ac lobortis urna, suscipit suscipit ante. Duis laoreet lectus sit amet nisi ornare, quis tristique nulla fermentum. Cras elementum felis sapien, vitae porta purus tincidunt ut. Phasellus suscipit laoreet efficitur. Maecenas a leo dolor. Fusce nisi leo, placerat id magna eu, lobortis accumsan purus. Phasellus in euismod lectus.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class=" section tree-container" id="section-n-5_752924">
+                        <div class="sb-bloc-inner c16" 
+                            style="padding: 10px 10px 10px 10px;">
+                            <div class="subcontainers">
+                                <div 
+                                    class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                    style="padding: 10px 10px 10px 10px;">
+                                    <div class="element element-title sb-vi-text-center theme-skin">
+                                        <h2><span class="element-title-inner" style="font-size: 20px;">Les chiens me font confiance !</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section> 
+                </div>
+            </div>
+        </div>
+    </div>

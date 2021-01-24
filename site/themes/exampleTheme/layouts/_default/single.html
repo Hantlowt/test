@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    {{- partial "head.html" . -}}
+    <body
+    class="view-visitor theme_wide menu_fixed has_header1 has_header2 has_header2_slider has_no_aside has_footer default_page "
+    >
+    <div id="body-container">
+        
+        {{- partial "header.html" . -}}
+        <div class="sb-container-fluid" id="body-container-inner">
+        {{- partial "page.html" . -}}
+        {{- partial "footer.html" . -}}
+    </div>
+        </div>
+    </body>
+</html>

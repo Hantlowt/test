@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: hantlowt/test
+
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections:
+- name: post
+  label: Post
+  folder: site/content
+  create: true
+  fields:
+    - {name: title, label: Title}
+    - {name: body, label: Body, widget: markdown}

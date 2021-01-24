@@ -1,7 +1,16 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Accueil"
+subtitle: Accueil
 image: /img/home-jumbotron.jpg
+galerie:
+    bouton_text: Cliquez-ici !
+    elements:
+        - title: Un titre test !
+          desc: une description
+          img: "https://dogconsulting.fr/wp-content/uploads/2020/07/iloa-lac.jpg"
+        - title: Un second titre
+          desc: une autre description
+          img: "https://dogconsulting.fr/wp-content/uploads/2020/07/iloa-lac.jpg"
 blurb:
     heading: Why Kaldi?
     text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."

@@ -1,0 +1,123 @@
+<div class="container-dark" id="footer">
+    <div class="sections-container">
+        <section class=" section tree-container" >
+            <div class="sb-bloc-inner c17 background-color-before-c-6 container-dark"
+                 style="padding: 10px 10px 10px 10px;">
+                <style>
+                    .c17 {
+                        position: relative;
+                    }
+
+                    .c17:before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 1.0;
+                    }
+                </style>
+                <div class="subcontainers">
+                    <div class="sb-row sb-row-custom subcontainers media-query">
+                        <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm" style="width: 33.0%;">
+                            <div 
+                                class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                style="padding: 10px 10px 0px 10px;">
+                                <div class="element element-title">
+                                    <h2><span class="element-title-inner" style="font-size: 18px;">Jerry Golay</span></h2>
+                                </div>
+                            </div>
+                            <div 
+                                class=" sb-bloc sb-bloc-level-3 bloc-element-text  "
+                                style="padding: 10px 10px 10px 10px;">
+                                <div class="element element-text displayed_in_1_column" spellcheck="true">
+                                    <p><b>Olivier Lhote</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut erat a leo accumsan tincidunt. Integer quis mauris laoreet, placerat nulla vel, vulputate est.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm" style="width: 33.0%;">
+                            <div 
+                                class=" sb-bloc sb-bloc-level-3 resizable-y bloc-element-separator  "
+                                style="height: 220px;">
+                                <div  style="margin: 10px 10px 10px 10px;"
+                                    class="sb-bloc-inner ">
+                                    <div class="element element-separator">
+                                        <div class="element-separator-inner direction-y separator-skin-1 ">
+                                            <div class="element-separator-container">
+                                                <div class="element-separator-el">
+                                                    <hr class="element-separator-line" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" sb-bloc sb-bloc-level-2 sb-col sb-col-sm" style="width: 33.0%;">
+                            <div 
+                                class=" sb-bloc sb-bloc-level-3 bloc-element-title  "
+                                style="padding: 10px 10px 0px 10px;">
+                                <div class="element element-title">
+                                    <h2><span class="element-title-inner" style="font-size: 18px;">Navigation</span></h2>
+                                </div>
+                            </div>
+                            <div 
+                                class=" sb-bloc sb-bloc-level-3 bloc-element-menu  "
+                                style="padding: 10px 10px 10px 10px;">
+                                <div class="element element-menu">
+                                    <div class=" menu-vertical menu-tabs-links display-chevrons">
+                                        <div class="menu-level-container menu-level-0">
+                                            <ul class="menu-tabs sb-row media-query">
+                                                {{ range ( where .Site.Pages "Section" "" ) }}
+                                                <li
+                                                    class="menu-tab-container sb-col sb-col-xxs-12 sb-col-xs-12 sb-col-sm-12 selected ">
+                                                    <div class="menu-tab">
+                                                        <a class="menu-tab-element link-text link-text-dark content-link content-link-anchor"
+                                                            href="{{.RelPermalink}}">
+                                                            <span class="link-label" >{{.Title}}</span>
+                                                        </a> </div>
+                                                </li>
+                                                {{end}}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+
+<a id="backtotop">
+    <i class="fa fa-arrow-up"></i>
+</a>
+
+
+
+<script
+src="/js/jquery.js">
+</script>
+<script
+src="/js/slick.js">
+</script>
+<script
+src="/js/fleximages.js">
+</script>
+<script
+src="/js/masonry.js">
+</script>
+<script
+src="/js/imagesloaded.js">
+</script>
+<script
+src="/js/selectize.js">
+</script>
+<script
+src="/js/app.js">
+</script>

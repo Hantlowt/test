@@ -1,0 +1,46 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="/" />
+    {{ $title := site.Title }}
+    {{ if not .IsHome }}
+    {{ $title = printf "%s | %s" .Title site.Title }}
+    {{ end }}
+    <title>{{ $title }}</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $title }}">
+
+    <link rel="stylesheet" media="all"
+        href="/css/animate.css" />
+    <link rel="stylesheet" media="all"
+        href="/css/base.css" />
+    <link rel="stylesheet" media="only screen and (max-width: 992px)"
+        href="/css/mobile.css" />
+    <link rel="stylesheet" media="all" href="/css/app.css">
+
+
+
+
+
+    </script>
+
+
+    <script>
+        window.Deferred = function () {
+            var e = [],
+                i = function () {
+                    if (window.jQuery && window.jQuery.ui)
+                        for (; e.length;) e.shift()(window.jQuery);
+                    else window.setTimeout(i, 250)
+                };
+            return i(), {
+                execute: function (i) {
+                    window.jQuery && window.jQuery.ui ? i(window.jQuery) : e.push(i)
+                }
+            }
+        }();
+    </script>
+</head>

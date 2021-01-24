@@ -1,0 +1,75 @@
+{{ $current_title := .Title }}
+<div id="mobile-wrapper" class="sb-hidden-md sb-hidden-lg">
+    <div class="sb-bloc">
+      <div  class="sb-bloc-inner">
+        
+        <div class="header-mobile sb-row">
+          <button class="menu-mobile-button menu-mobile-button-open"><i class="fa fa-bars"></i></button>
+          <div class="header-mobile-logo pull-left">
+            <div  class=" sb-bloc sb-bloc-level-3 header1-logo bloc-element-image  " style="padding: 10px 0px 10px 10px;"><div   class="sb-bloc-inner c18"><div  class="element element-image" ><div class="element-image-container redirect_with_no_text">
+    <a title="DogConsulting" href="/">
+      <img class="sb-vi-img-responsive img-query" alt="" src="/img/logo.png" >
+  
+  </a></div></div></div></div>
+          </div>
+          <div class="header-mobile-texts pull-left">
+            <div class="header-mobile-title sb-row">
+              <div  class=" sb-bloc sb-bloc-level-3 header1-title bloc-element-title  " style="padding: 10px 10px 10px 10px;"><div class="element element-title theme-skin"><strong><span class="element-title-inner">Jerry Golay</span></strong></div></div>
+            </div>
+            <div class="header-mobile-subtitle sb-row">
+              <div  class=" sb-bloc sb-bloc-level-3 header1-subtitle bloc-element-title  " style="padding: 10px 10px 10px 10px;"><div class="element element-title theme-skin"><strong><span class="element-title-inner">Vrai
+  <br>coach canin</span></strong></div></div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="header-mobile-phone element-link">
+          <a class="sb-vi-btn skin_2 sb-vi-btn-lg sb-vi-btn-block" href="tel:">
+            <span><i class="fa fa-phone fa-fw"></i> Appeler</span>
+  </a>        </div>
+        </div>
+        <div class="menu-mobile" style="width: 300px; right: -300px;">
+          <button class="menu-mobile-button menu-mobile-button-close animated slideInRight"><i class="fa fa-times"></i></button>
+          <ul class="mobile-menu-tabs">
+            {{ range ( where .Site.Pages "Section" "" ) }}
+    <li class="menu-mobile-element ">
+      <a class="menu-tab-element {{ if eq $current_title .Title }}active{{end}} content-link content-link-anchor" href="{{.RelPermalink}}">
+        <span class="link-label">{{.Title}}</span>
+  </a>  </li>
+  {{ end }}
+  </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sb-container-fluid" id="body-container-inner">
+    
+  <div class="sb-hidden-xs sb-hidden-sm" id="header_wrapper"><div class="clearfix" id="header_wrapper_inner"><div class="" id="menu"><div class="sb-row sb-hidden-xs sb-hidden-sm"><div class="sb-col sb-col-sm"><div  class=" sb-bloc sb-bloc-level-3 bloc-element-menu  "><div class="element element-menu"><div class=" menu-horizontal"><div class="menu-level-container menu-level-0">
+    <ul class="menu-tabs sb-row media-query">
+      {{ range ( where .Site.Pages "Section" "" ) }}
+      <li class="menu-tab-container sb-col  {{ if eq $current_title .Title }} selected {{end}}">
+        <div class="menu-tab">
+            <a class="menu-tab-element link-text link-text-dark content-link content-link-anchor" href="{{.RelPermalink}}">
+              <span class="link-label">{{.Title}}</span>
+  </a>      </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div></div></div></div>
+  </div></div></div><div class="container-light" id="header1"><div id="header1-static" class="">
+    <div class="header1-static-logo">
+      <div  class=" sb-bloc sb-bloc-level-3 header1-logo bloc-element-image  " style="padding: 10px 0px 10px 10px;"><div   class="sb-bloc-inner c18"><div  class="element element-image" ><div class="element-image-container redirect_with_no_text">
+    <a title="Sophrologue Boulogne-Billancourt 92100 | Alexandra Essen" href="/">
+      <img class="sb-vi-img-responsive img-query" alt="" src="/img/logo.png">
+  
+  </a></div></div></div></div>
+    </div>
+    <div class="header1-static-titles">
+      <div class="header1-static-title">
+        <div  class=" sb-bloc sb-bloc-level-3 header1-title bloc-element-title  " style="padding: 10px 10px 10px 10px;"><div class="element element-title theme-skin"><strong><span class="element-title-inner">Olivier Lhote</span></strong></div></div>
+      </div>
+      <div class="header1-static-subtitle">
+        <div  class=" sb-bloc sb-bloc-level-3 header1-subtitle bloc-element-title  " style="padding: 10px 10px 10px 10px;"><div class="element element-title theme-skin"><strong><span class="element-title-inner">Vrai
+  <br>Coach Canin</span></strong></div></div>
+      </div>
+    </div>
+  </div></div></div></div></div>
